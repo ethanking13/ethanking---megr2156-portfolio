@@ -99,13 +99,16 @@ The overall geometry combines the two lever arms and the pivot into a mechanism 
 
 Two alternative devices that perform the same primary function of cutting paper are:
 
-1. **Paper cutter/guillotine** — uses a hinged blade to shear paper.
-2. **Utility knife** — uses a single sharpened blade to cut through paper.
+1. **Paper cutter/guillotine**  uses a hinged blade to shear paper.
+2. **Utility knife**  uses a single sharpened blade to cut through paper.
 
 ### ii. Design Decision
 
-One noticeable design decision is the shape and size of the scissors' handle. The handle has a large opening that provides enough space for users with larger hands while also allowing the scissors to be operated comfortably by either left- or right-handed users. This design prioritizes usability and accommodates a wider range of users while maintaining the lever arm needed to apply force to the blades.
+One noticeable design decision is the shape and size of the scissors' handle. The handle has a large opening that provides enough space for users with larger hands while also allowing the scissors to be operated comfortably by either left or right-handed users. This design prioritizes usability and accommodates a wider range of users while maintaining the lever arm needed to apply force to the blades.
 ## Decide
+## Homepage Identity
+The homepage is designed to serve as an organized record of my engineering work and development. It provides students, professors, and potential employers with access to my previous assignments and projects while allowing them to understand how my engineering skills have developed over time. The content is organized so that visitors can locate individual pieces of work and review the documentation behind each project. The portfolio emphasizes detailed documentation and problem-solving to show not only the completed work but also the engineering process behind it. The homepage is intended to give visitors an immediate understanding of the purpose and organization of the portfolio while demonstrating my passion for engineering through the work documented throughout it.
+## Intentional Customization
 
 
 ## Communicate
