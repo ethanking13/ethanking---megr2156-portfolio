@@ -11,34 +11,38 @@ I compared two portfolios. The first one of from GitHub, and the second one is a
 
 **Portfolio:** [Nathaniel Karau's Portfolio](https://natekarau61.github.io/Engineering-Portfolio/#home)
 
+### A. Navigability
+The portfolio organizes multiple projects under a "Projects" section that is accessible from the main page. A reader can locate individual projects through this section without navigating through multiple unrelated pages.
 
-### a. Navigability
-He has multiple projects listed under a side link called "Projects" that is easily locatable as soon as you open up his portfolio.
+### B. Reproducibility
+The "Box Form" project provides enough technical information to partially reproduce the work. It includes the tools used, CAD models, and engineering drawings that document the manufacturing process. However, additional technical specifications may be required to fully reproduce the project.
 
-### b. Reproducibility
-Taking a look at his "Box Form" project you could easily reproduce the project to a extent he list tools used, the CAD model, and various engineering drawings he used to make it
+### C. Evidence of Reasoning
+The portfolio primarily presents completed project results rather than documenting the design process. It mentions achieving "zero failures over multiple casting cycles," but provides limited information about the design decisions, testing process, or problems encountered before reaching the final result.
 
-### c. Evidence of Reasoning
-The portfolio only shows his final answer he does mention there were "zero failures over multiple casting cycles" but other than that no.
-
-### d. Professional Tone
-It reads and functions as a resume, Which is definitely his goal here. There were zero typos and the main questions and imployer would asked were listed from personal projects, about Me's, contact info and even work experience. 
+### D. Professional Tone
+The portfolio is structured similarly to a resume and includes information relevant to an employer, including personal projects, an "About Me" section, contact information, and work experience. The writing contains no noticeable spelling errors and presents the information in a format appropriate for an engineering portfolio. 
 
 ## Portfolio 2 — Andre Pacheco (PDF)
 
 **Portfolio:** [Andre Pacheco's Portfolio](https://pachecoandre.com.br/assets/files/andre-pacheco-eng-undergrad-portfolio.pdf)
 
-### a. Navigability
-He includes a table of contents page which hyperlinks you to header that you click on.
+### A. Navigability
+The portfolio includes a table of contents that uses hyperlinks to direct the reader to specific sections and headings. This allows a reader to navigate between major sections without manually searching through the entire portfolio.
 
-### b. Reproducibility
-No, He doesn't include enough information on any project to where someone could reproduce without ever asking a questions. He list the basics for example, What code was used "C++", a couple of CAD models, and just basic overview. He fails to mention any specific dimensions or code that were used in his designs.
+### B. Reproducibility
+The documentation does not contain enough technical information to fully reproduce the projects without additional questions. It identifies basic tools and technologies, such as C++ and CAD models, but provides limited information about specific dimensions, design parameters, or the code used to produce the final results.
 
-### c. Evidence of Reasoning
-He also only includes the final answer to his projects. He never mentions what failures he met along the way and the steps he took to overcome them.
+### C. Evidence of Reasoning
+The portfolio primarily documents the final results of the projects rather than the engineering process used to reach them. It provides limited information about design iterations, failures, constraints, or the methods used to resolve problems.
 
-### d. Professional Tone
-Overall, This is a very professional Portfolio in includes a little about him and all his personal projects. The only thing it is missing is any contact information if an employer ever wanted to reach out to him they couldn't. 
+### D. Professional Tone
+The portfolio presents information about himself, personal projects, and engineering experience in a format intended for potential employers. However, it does not provide contact information, which limits an employer's ability to follow up with the author regarding potential opportunities.
+
+## Task B - Product Analysis "Stainless Steel Scissors"
+## A. Primary Function
+
+The primary mechanical function of scissors is to convert an applied force at the handles into a cutting force at the blades. The handles rotate about the pivot, causing the blades to move relative to each other and apply opposing forces to the material. For this analysis, the material being cut is paper.
 
 ## Decide
 
