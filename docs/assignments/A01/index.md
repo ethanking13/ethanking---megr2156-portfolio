@@ -112,7 +112,7 @@ The homepage is designed to serve as an organized record of my engineering work 
 
 I changed the assignment labels in the navigation from generic labels such as "A1," "A2," "A3," and so on to descriptive names that identify the content of each assignment. This change better satisfies the **navigability requirement** because students, professors, and employers can identify the purpose of an assignment without already knowing the course assignment numbering. The template's default labels did not provide enough information about the content of each page, requiring visitors to open individual assignments to determine what they contained. Descriptive labels allow visitors to locate specific work more efficiently and make the portfolio easier to navigate.
 
-# My Documentation Standard
+## My Documentation Standard
 
 **Every assignment entry will contain accurate technical information, evidence of the design and problem-solving process, and enough documentation for a student, professor, or employer to understand and evaluate the work without needing additional clarification.**
 
