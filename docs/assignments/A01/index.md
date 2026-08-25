@@ -48,16 +48,16 @@ The primary mechanical function of scissors is to convert an applied force at th
 
 The primary governing model for the scissors is the **law of the lever**, which is based on torque equilibrium about the pivot.
 
-$$
-F_{in}L_{in} = F_{out}L_{out}
-$$
+
+FL = FoLo
+
 
 Where:
 
-- $F_{in}$ = force applied to the handle
-- $L_{in}$ = distance from the pivot to where the input force is applied
-- $F_{out}$ = cutting force produced by the blade
-- $L_{out}$ = distance from the pivot to where the cutting force acts
+- F = force applied to the handle
+- L = distance from the pivot to where the input force is applied
+- Fo = cutting force produced by the blade
+- Lo = distance from the pivot to where the cutting force acts
 
 This model describes how the force applied to the handles produces a torque about the pivot, which is transferred to the blades to cut the paper. Scissors operate as two first-class levers connected at a common pivot. :contentReference[oaicite:0]{index=0}
 
