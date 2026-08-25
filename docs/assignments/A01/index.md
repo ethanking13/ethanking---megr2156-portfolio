@@ -108,7 +108,13 @@ One noticeable design decision is the shape and size of the scissors' handle. Th
 ## Decide
 ## Homepage Identity
 The homepage is designed to serve as an organized record of my engineering work and development. It provides students, professors, and potential employers with access to my previous assignments and projects while allowing them to understand how my engineering skills have developed over time. The content is organized so that visitors can locate individual pieces of work and review the documentation behind each project. The portfolio emphasizes detailed documentation and problem-solving to show not only the completed work but also the engineering process behind it. The homepage is intended to give visitors an immediate understanding of the purpose and organization of the portfolio while demonstrating my passion for engineering through the work documented throughout it.
-## Intentional Customization
+### One Intentional Customization
+
+I changed the assignment labels in the navigation from generic labels such as "A1," "A2," "A3," and so on to descriptive names that identify the content of each assignment. This change better satisfies the **navigability requirement** because students, professors, and employers can identify the purpose of an assignment without already knowing the course assignment numbering. The template's default labels did not provide enough information about the content of each page, requiring visitors to open individual assignments to determine what they contained. Descriptive labels allow visitors to locate specific work more efficiently and make the portfolio easier to navigate.
+
+## Your Documentation Standard
+
+<span style="color:#0057B8; font-weight:bold;">Every assignment entry will contain accurate technical information, evidence of the design and problem-solving process, and enough documentation for a student, professor, or employer to understand and evaluate the work without needing additional clarification.</span>
 
 
 ## Communicate
