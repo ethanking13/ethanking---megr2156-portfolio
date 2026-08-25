@@ -119,3 +119,4 @@ I changed the assignment labels in the navigation from generic labels such as "A
 
 ## Communicate
 
+This section was answered in the **About Me** section which helps briefly introduces me and as to why I am an engineer
