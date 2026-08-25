@@ -120,10 +120,3 @@ I changed the assignment labels in the navigation from generic labels such as "A
 ## Communicate
 
 This section was answered in the **About Me** section which helps briefly introduces me and as to why I am an engineer
-
-
-### Full Assembly
-
-![Full scissors assembly](../../images/IMG_6456.jpeg)
-
-The overall geometry combines the two lever arms and the pivot into a mechanism that converts the force applied at the handles into opposing forces at the blades.
