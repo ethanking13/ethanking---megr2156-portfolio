@@ -88,6 +88,23 @@ The pivot screw connects the two blade and handle assemblies while allowing them
 ![Full scissors assembly](../images/IMG_6456.jpeg)
 
 The overall geometry combines the two lever arms and the pivot into a mechanism that converts the force applied at the handles into opposing forces at the blades.
+
+## D. Patent Research
+
+**Patent:** [US7458160B2 — Scissors](https://patents.google.com/patent/US7458160B2/en)
+
+**Inventors:** Juan Carlos Escobar, Justin John Adelff, and Dino Anthony Mariano
+
+### i. Alternative Solutions
+
+Two alternative devices that perform the same primary function of cutting paper are:
+
+1. **Paper cutter/guillotine** — uses a hinged blade to shear paper.
+2. **Utility knife** — uses a single sharpened blade to cut through paper.
+
+### ii. Design Decision
+
+One noticeable design decision is the shape and size of the scissors' handle. The handle has a large opening that provides enough space for users with larger hands while also allowing the scissors to be operated comfortably by either left- or right-handed users. This design prioritizes usability and accommodates a wider range of users while maintaining the lever arm needed to apply force to the blades.
 ## Decide
 
 
