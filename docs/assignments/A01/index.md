@@ -67,29 +67,25 @@ This model describes how the force applied to the handles produces a torque abou
 
 ### Component 1 — Left Blade and Handle
 
-## C. Component Geometry
-
-### Component 1 — Left Blade and Handle
-
-![Left blade and handle](../IMG_6457.jpeg)
+![Left blade and handle](../images/IMG_6457.jpeg)
 
 The blade is long and tapered, with a sharpened edge extending toward the tip. The tapered geometry allows the cutting location to move along the blade as the scissors close. The handle extends a greater distance from the pivot and includes a large finger opening. This increases the distance between the applied hand force and the pivot, increasing the input moment.
 
 ### Component 2 — Right Blade and Handle
 
-![Right blade and handle](../IMG_6459.jpeg)
+![Right blade and handle](../images/IMG_6459.jpeg)
 
 The second blade mirrors the first and works together with it to produce a shearing action. Its tapered profile allows the two cutting edges to remain in contact as they move past each other. The handle contains a large finger opening that provides a location for applying force at a relatively large distance from the pivot.
 
 ### Component 3 — Pivot Screw
 
-![Pivot screw](../IMG_6458.jpeg)
+![Pivot screw](../images/IMG_6458.jpeg)
 
 The pivot screw connects the two blade and handle assemblies while allowing them to rotate relative to each other. Its location establishes the fulcrum for both lever arms. The position of the pivot determines the distances from the applied handle force and the cutting location, directly affecting the mechanical advantage.
 
 ### Full Assembly
 
-![Full scissors assembly](../IMG_6456.jpeg)
+![Full scissors assembly](../images/IMG_6456.jpeg)
 
 The overall geometry combines the two lever arms and the pivot into a mechanism that converts the force applied at the handles into opposing forces at the blades.
 ## Decide
