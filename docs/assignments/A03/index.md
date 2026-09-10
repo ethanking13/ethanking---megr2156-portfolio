@@ -1,7 +1,7 @@
 # A3 – [Parametric and FEA]
 
 ## Outline
-# 1. Parametric Design of Aluminum Bar
+# Parametric Design of Aluminum Bar
 
 ## 1.1 Design Requirements
 
@@ -34,19 +34,15 @@ The cross section of the bar was selected as **1 in × 1 in**, resulting in a cr
 
 # Beam Calculations
 
-The cross-sectional area of the rectangular bar was calculated using:
+The cross-sectional area of the rectangular bar and the Length of the bar
 
-$$
-A = wh
-$$
+
 
 <img width="1590" height="785" alt="IMG_0358" src="https://github.com/user-attachments/assets/d4e877e8-193c-480a-ac2e-231847a601b2" />
 
 
 
-Therefore, the calculated maximum length of the bar is:
-
-**207 inches**
+Therefore, the calculated area of the Bar is **1 in²**. And maximum length of the bar is: **207 inches**
 
 ---
 
