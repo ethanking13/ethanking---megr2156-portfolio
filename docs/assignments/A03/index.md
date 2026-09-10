@@ -213,7 +213,7 @@ The axial deflection from the hand calculation was **0.009 in**, which correspon
 The percent difference between the hand calculation and FEA result was calculated as:
 
 
-<img width="1810" height="893" alt="IMG_0360" src="https://github.com/user-attachments/assets/33c88035-f7a9-42b6-a36b-7953e9c16a73" />
+<img width="1970" height="542" alt="IMG_0359 (2)" src="https://github.com/user-attachments/assets/d8b79b47-7a09-4f49-8da4-83a5cd6b6aaf" />
 
 
 Therefore, the FEA result was approximately **14.89% greater** than the hand-calculated deflection.
