@@ -213,3 +213,61 @@ However, the FEA deflection of **0.01034 in** is greater than the required maxim
 | Safety Factor | 74.1 | > 1 | Pass |
 
 The FEA indicates that the bar is well within the allowable stress limit but exceeds the maximum allowable deflection. This difference between the FEA and hand calculation will be discussed in the Design Reflection section.
+
+# Design Reflection
+
+## Deflection Comparison
+
+The axial deflection from the hand calculation was **0.009 in**, which corresponds to the maximum allowable deflection specified by the design requirements. The maximum resultant displacement from the FEA was **0.01034 in**.
+
+The percent difference between the hand calculation and FEA result was calculated as:
+
+\[
+\%\text{ Difference}
+=
+\frac{|0.01034-0.009|}{0.009}\times100
+\]
+
+\[
+\%\text{ Difference}
+=
+14.89\%
+\]
+
+Therefore, the FEA result was approximately **14.89% greater** than the hand-calculated deflection.
+
+---
+
+## Explanation of the Difference
+
+The difference between the hand calculation and the FEA result can be attributed to the assumptions made in the hand calculation compared with the conditions used in the FEA simulation.
+
+The hand calculation uses the direct tension equation:
+
+\[
+\delta=\frac{FL}{AE}
+\]
+
+This equation assumes a uniform cross-sectional area, constant material properties, and ideal axial loading. The FEA model accounts for the actual simulation setup, including the fixed geometry and applied load locations. Differences in the boundary conditions, load application, mesh, and how SOLIDWORKS calculates displacement can contribute to the difference between the two results.
+
+The FEA displacement was **0.01034 in**, compared with the hand-calculated value of **0.009 in**. Since the FEA result is higher, the model does not meet the **0.009 in maximum deflection requirement** according to the simulation.
+
+---
+
+## Comparison of Results
+
+| Method | Maximum Axial Deflection |
+|---|---:|
+| Hand Calculation | 0.009 in |
+| FEA | 0.01034 in |
+| Percent Difference | 14.89% |
+
+The hand calculation predicted a deflection exactly at the allowable limit, while the FEA predicted a slightly larger displacement.
+
+---
+
+## Trusted Result
+
+For evaluating the actual behavior of the CAD model, I would trust the **FEA result more** because it evaluates the specific geometry, material, loading condition, and boundary conditions used in the simulation. The hand calculation is useful for determining the initial dimensions and estimating the expected deflection, but it relies on ideal assumptions.
+
+The FEA result of **0.01034 in** indicates that the current design exceeds the maximum allowable deflection of **0.009 in**. Therefore, the design passes the strength requirement but does not meet the deflection requirement based on the FEA results.
