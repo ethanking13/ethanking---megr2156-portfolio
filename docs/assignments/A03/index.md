@@ -193,9 +193,7 @@ Therefore, the bar passes the **strength requirement** because the maximum von M
 
 The FEA indicates that the bar is well within the allowable stress limit but exceeds the maximum allowable deflection. This difference between the FEA and hand calculation will be discussed in the Design Reflection section.
 
-# Design Reflection
-
-## Deflection Comparison
+## Design Reflection
 
 The axial deflection from the hand calculation was **0.009 in**, which corresponds to the maximum allowable deflection specified by the design requirements. The maximum resultant displacement from the FEA was **0.01034 in**.
 
