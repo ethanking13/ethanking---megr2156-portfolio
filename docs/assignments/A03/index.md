@@ -31,9 +31,9 @@ The cross section of the bar was selected as **1 in × 1 in**, resulting in a cr
 
 ## 1.2 Beam Calculations
 
-The cross-sectional area of the rectangular bar was calculated using the width and height of the bar.
+The cross-sectional area of the rectangular bar and the length of the bar were determined using the required design parameters.
 
-The direct tension equation was then used to determine the maximum length of the bar based on the applied force, cross-sectional area, Young's Modulus, and maximum allowable deflection.
+The direct tension equation was used to determine the maximum length of the bar based on the applied force, cross-sectional area, Young's Modulus, and maximum allowable deflection.
 
 <img width="1590" height="785" alt="Beam Calculations" src="https://github.com/user-attachments/assets/d4e877e8-193c-480a-ac2e-231847a601b2" />
 
@@ -62,7 +62,7 @@ First, I entered all of the known values into the **Equations** section of SOLID
 
 *Figure 1. Parameters entered into the SOLIDWORKS Equations section.*
 
-Next, I created the **1 in × 1 in** face of the bar using the specific Base (b) and Height (h) parameters. These parameters are controlled by the equations, as shown by the summation symbols in SOLIDWORKS.
+Next, I created the **1 in × 1 in** face of the bar using the specific Base (b) and Height (h) parameters. These parameters are controlled by the equations, as shown by the summation symbols.
 
 <img width="352" height="296" alt="SOLIDWORKS Base and Height" src="https://github.com/user-attachments/assets/5296c86a-776b-453a-97fc-2de8dba05d15" />
 
@@ -86,23 +86,56 @@ The required material for the bar was aluminum. In SOLIDWORKS, I selected **6061
 
 *Figure 4. 6061-T6 Aluminum selected as the material for the bar.*
 
-The material was assigned to the bar before beginning the FEA setup. The material properties are important because they determine how the bar responds to the applied load, including its deformation and stress.
+The material was assigned to the bar before setting up the FEA simulation. The material properties are important because they determine how the bar responds to the applied load, including its stress and deformation.
 
 ---
 
-## 1.5 Meshing the Part
+## 1.5 Adding a Fixed Geometry
 
-Before I could run the FEA simulation, I needed to mesh the part. Meshing divides the bar into many smaller elements that SOLIDWORKS uses to calculate the stresses and displacement throughout the model.
+After selecting the material, I added a **Fixed Geometry** fixture to one end of the bar. This prevents the selected end from moving during the simulation and represents the end of the bar being held in place.
 
-After assigning the **6061-T6 Aluminum** material, I generated a mesh for the bar using SOLIDWORKS Simulation.
+The fixed geometry was applied to one end of the bar so that the opposite end could be subjected to the required axial force.
 
-<!-- Add your mesh screenshot below -->
+
+<img width="1282" height="887" alt="Screenshot 2026-09-09 223957" src="https://github.com/user-attachments/assets/9acabf89-ea36-40bf-8543-ae1d04e0913b" />
+
+
+![Fixed Geometry](images/fixed_geometry.png)
+
+*Figure 5. Fixed Geometry applied to one end of the aluminum bar.*
+
+---
+
+## 1.6 Applying the 500 lbf Force
+
+After fixing one end of the bar, I applied a **500 lbf** force to the opposite end. The force was applied in the longitudinal direction of the bar to represent the direct tension loading condition used in the hand calculations.
+
+The applied force was selected as **500 lbf**, which is the maximum value within the required loading range of 300–500 lbf.
+
+
+<img width="1496" height="627" alt="Screenshot 2026-09-09 224242" src="https://github.com/user-attachments/assets/6eb10112-1aa6-4d93-be8a-40d9e289ca6e" />
+
+
+![500 lbf Force](images/500_lbf_force.png)
+
+*Figure 6. A 500 lbf axial force applied to the opposite end of the aluminum bar.*
+
+---
+
+## 1.7 Meshing the Part
+
+After applying the fixed geometry and the **500 lbf** force, the next step was to create a mesh for the bar. Meshing divides the bar into many smaller elements that SOLIDWORKS uses to calculate the stress and displacement throughout the model.
+
+I generated the mesh using the SOLIDWORKS Simulation mesh settings. The completed mesh was then used for the FEA calculations.
+
+<img width="1652" height="425" alt="Screenshot 2026-09-09 224452" src="https://github.com/user-attachments/assets/158dc036-b407-440d-a156-be78d5127f41" />
+
 
 ![SOLIDWORKS Mesh](images/mesh.png)
 
-*Figure 5. Mesh generated for the aluminum bar before running the FEA simulation.*
+*Figure 7. Mesh generated for the aluminum bar before running the FEA simulation.*
 
-Once the mesh was generated, the model was ready for the FEA setup. The next step was to apply the appropriate fixtures and the **500 lbf** load before running the simulation.
+After the mesh was generated, the simulation was ready to be run. The FEA results were then used to determine the maximum deflection and von Mises stress of the bar.
 
 
 ## Finite Element Analysis (FEA)
