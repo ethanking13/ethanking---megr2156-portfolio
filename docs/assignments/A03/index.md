@@ -1,10 +1,6 @@
 # A3 – [Parametric and FEA]
 
 ## Outline
-# Parametric Design of Aluminum Bar
-
-## 1.1 Design Requirements
-
 The objective of this portion of the project was to parametrically design an aluminum bar subjected to a direct axial load.
 
 The design requirements were:
@@ -46,7 +42,7 @@ Therefore, the calculated area of the Bar is **1 in²**. And maximum length of t
 
 ---
 
-## 1.4 Parametric CAD Model
+## CAD Model
 
 The calculated dimensions and design parameters were implemented in SOLIDWORKS. The model was created parametrically so that the dimensions and calculated length could be controlled using the selected engineering variables.
 
