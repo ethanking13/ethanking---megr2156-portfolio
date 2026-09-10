@@ -32,7 +32,7 @@ The cross section of the bar was selected as **1 in × 1 in**, resulting in a cr
 
 ---
 
-## 1.2 Cross-Sectional Area
+# Beam Calculations
 
 The cross-sectional area of the rectangular bar was calculated using:
 
@@ -40,49 +40,9 @@ $$
 A = wh
 $$
 
-Substituting the selected dimensions:
+<img width="1590" height="785" alt="IMG_0358" src="https://github.com/user-attachments/assets/d4e877e8-193c-480a-ac2e-231847a601b2" />
 
-$$
-A = (1)(1)
-$$
 
-$$
-\boxed{A = 1\text{ in}^2}
-$$
-
-The 1 in × 1 in cross section was selected because it provides a simple, uniform geometry that can easily be controlled using parametric dimensions in SOLIDWORKS.
-
----
-
-## 1.3 Direct Tension Calculation
-
-The length of the bar was determined using the direct tension elongation equation:
-
-$$
-\delta = \frac{FL}{AE}
-$$
-
-Solving for the length:
-
-$$
-L = \frac{\delta AE}{F}
-$$
-
-Substituting the selected design parameters:
-
-$$
-L =
-\frac{(0.009)(1)(11,500,000)}
-{500}
-$$
-
-$$
-L = \frac{103,500}{500}
-$$
-
-$$
-\boxed{L = 207\text{ in}}
-$$
 
 Therefore, the calculated maximum length of the bar is:
 
