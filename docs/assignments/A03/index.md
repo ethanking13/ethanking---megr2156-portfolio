@@ -57,25 +57,21 @@ The parameters used in the CAD model include:
 - Cross-sectional area
 - Bar length
 
-The relationship used to determine the bar length was:
+First I plugged every known into the Equations section, This allows the length of the bar to change when the applied load, material properties, cross-sectional dimensions, or allowable deflection are changed.
 
-$$
-L = \frac{\delta AE}{F}
-$$
+<img width="212" height="187" alt="Screenshot 2026-09-09 223311" src="https://github.com/user-attachments/assets/aed905ca-aeb4-40ba-b673-f4fbb82650bd" />
 
-Since the cross-sectional area is:
 
-$$
-A = wh
-$$
+Next, I made the 1x1 face of the beam using my specific Base(b) and Height(h) parameters, Which can be seen that they are being used by the Summation Symbol
 
-the length can also be represented as:
+<img width="352" height="296" alt="Screenshot 2026-09-09 223242" src="https://github.com/user-attachments/assets/5296c86a-776b-453a-97fc-2de8dba05d15" />
 
-$$
-L = \frac{\delta(wh)E}{F}
-$$
 
-This allows the length of the bar to change when the applied load, material properties, cross-sectional dimensions, or allowable deflection are changed.
+
+
+
+
+
 
 ### SOLIDWORKS Parametric Model
 
