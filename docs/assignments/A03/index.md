@@ -80,11 +80,7 @@ I then chose the required material which was **6061-T6 Aluminum**
 <img width="945" height="776" alt="Screenshot 2026-09-09 223751" src="https://github.com/user-attachments/assets/fe034bc7-0a97-43c1-89f7-0ad511599694" />
 
 
-meow meow meow
-
-## FEA Condcuction
-
-# 2. Finite Element Analysis (FEA)
+## Finite Element Analysis (FEA)
 
 A finite element analysis was performed on the aluminum bar using SOLIDWORKS Simulation. The same loading condition used to generate the bar geometry was applied to the FEA model.
 
