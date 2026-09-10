@@ -141,17 +141,6 @@ A finite element analysis was performed on the aluminum bar using SOLIDWORKS Sim
 
 The simulation was used to determine the maximum axial deflection and maximum von Mises stress. The results were then compared with the design requirements.
 
-## FEA Parameters
-
-| Parameter | Value |
-|---|---:|
-| Applied Load | 500 lbf |
-| Young's Modulus | 11,500,000 psi |
-| Cross-Sectional Area | 1 in² |
-| Bar Length | 207 in |
-| Maximum Allowable Deflection | 0.009 in |
-| Aluminum Yield Strength | 40 ksi |
-
 ---
 
 ## Deflection Results
