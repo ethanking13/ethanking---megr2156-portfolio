@@ -1,6 +1,7 @@
-# A3 – [Parametric and FEA]
+# 1. Parametric Design of Aluminum Bar
 
-## Outline
+## 1.1 Design Requirements
+
 The objective of this portion of the project was to parametrically design an aluminum bar subjected to a direct axial load.
 
 The design requirements were:
@@ -28,21 +29,19 @@ The cross section of the bar was selected as **1 in × 1 in**, resulting in a cr
 
 ---
 
-# Beam Calculations
+## 1.2 Beam Calculations
 
-The cross-sectional area of the rectangular bar and the Length of the bar
+The cross-sectional area of the rectangular bar was calculated using the width and height of the bar.
 
+The direct tension equation was then used to determine the maximum length of the bar based on the applied force, cross-sectional area, Young's Modulus, and maximum allowable deflection.
 
+<img width="1590" height="785" alt="Beam Calculations" src="https://github.com/user-attachments/assets/d4e877e8-193c-480a-ac2e-231847a601b2" />
 
-<img width="1590" height="785" alt="IMG_0358" src="https://github.com/user-attachments/assets/d4e877e8-193c-480a-ac2e-231847a601b2" />
-
-
-
-Therefore, the calculated area of the Bar is **1 in²**. And maximum length of the bar is: **207 inches**
+Therefore, the calculated cross-sectional area of the bar is **1 in²**, and the maximum calculated length of the bar is **207 inches**.
 
 ---
 
-## CAD Model
+## 1.3 CAD Model
 
 The calculated dimensions and design parameters were implemented in SOLIDWORKS. The model was created parametrically so that the dimensions and calculated length could be controlled using the selected engineering variables.
 
@@ -57,27 +56,53 @@ The parameters used in the CAD model include:
 - Cross-sectional area
 - Bar length
 
-First I plugged every known into the Equations section, This allows the length of the bar to change when the applied load, material properties, cross-sectional dimensions, or allowable deflection are changed.
+First, I entered all of the known values into the **Equations** section of SOLIDWORKS. This allows the length of the bar to change when the applied load, material properties, cross-sectional dimensions, or allowable deflection are changed.
 
-<img width="212" height="187" alt="Screenshot 2026-09-09 223311" src="https://github.com/user-attachments/assets/aed905ca-aeb4-40ba-b673-f4fbb82650bd" />
+<img width="212" height="187" alt="SOLIDWORKS Equations" src="https://github.com/user-attachments/assets/aed905ca-aeb4-40ba-b673-f4fbb82650bd" />
 
+*Figure 1. Parameters entered into the SOLIDWORKS Equations section.*
 
-Then, I made the 1x1 face of the beam using my specific Base(b) and Height(h) parameters, Which can be seen that they are being used by the Summation Symbol
+Next, I created the **1 in × 1 in** face of the bar using the specific Base (b) and Height (h) parameters. These parameters are controlled by the equations, as shown by the summation symbols in SOLIDWORKS.
 
-<img width="352" height="296" alt="Screenshot 2026-09-09 223242" src="https://github.com/user-attachments/assets/5296c86a-776b-453a-97fc-2de8dba05d15" />
+<img width="352" height="296" alt="SOLIDWORKS Base and Height" src="https://github.com/user-attachments/assets/5296c86a-776b-453a-97fc-2de8dba05d15" />
 
-Next, I extruded the Beams face to the correct length that was calculated of **207 inches**
+*Figure 2. Base and height parameters used to create the 1 in × 1 in cross section.*
 
-<img width="268" height="228" alt="Screenshot 2026-09-09 223423" src="https://github.com/user-attachments/assets/f1f08639-b106-4931-bcdd-c33253ff0b42" />
+Next, I extruded the bar's face to the calculated length of **207 inches**.
 
-<img width="1497" height="842" alt="Screenshot 2026-09-09 223537" src="https://github.com/user-attachments/assets/72ca8b5e-efdc-4ee4-93de-b01b013189a3" />
+<img width="268" height="228" alt="SOLIDWORKS Extrusion Length" src="https://github.com/user-attachments/assets/f1f08639-b106-4931-bcdd-c33253ff0b42" />
 
+<img width="1497" height="842" alt="SOLIDWORKS Bar Model" src="https://github.com/user-attachments/assets/72ca8b5e-efdc-4ee4-93de-b01b013189a3" />
 
+*Figure 3. Bar extruded to the calculated length of 207 inches.*
 
+---
 
-I then chose the required material which was **6061-T6 Aluminum**
+## 1.4 Material Selection
 
-<img width="945" height="776" alt="Screenshot 2026-09-09 223751" src="https://github.com/user-attachments/assets/fe034bc7-0a97-43c1-89f7-0ad511599694" />
+The required material for the bar was aluminum. In SOLIDWORKS, I selected **6061-T6 Aluminum** from the available material library.
+
+<img width="945" height="776" alt="6061-T6 Aluminum Material" src="https://github.com/user-attachments/assets/fe034bc7-0a97-43c1-89f7-0ad511599694" />
+
+*Figure 4. 6061-T6 Aluminum selected as the material for the bar.*
+
+The material was assigned to the bar before beginning the FEA setup. The material properties are important because they determine how the bar responds to the applied load, including its deformation and stress.
+
+---
+
+## 1.5 Meshing the Part
+
+Before I could run the FEA simulation, I needed to mesh the part. Meshing divides the bar into many smaller elements that SOLIDWORKS uses to calculate the stresses and displacement throughout the model.
+
+After assigning the **6061-T6 Aluminum** material, I generated a mesh for the bar using SOLIDWORKS Simulation.
+
+<!-- Add your mesh screenshot below -->
+
+![SOLIDWORKS Mesh](images/mesh.png)
+
+*Figure 5. Mesh generated for the aluminum bar before running the FEA simulation.*
+
+Once the mesh was generated, the model was ready for the FEA setup. The next step was to apply the appropriate fixtures and the **500 lbf** load before running the simulation.
 
 
 ## Finite Element Analysis (FEA)
