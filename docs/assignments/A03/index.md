@@ -243,4 +243,4 @@ Throughout this project, I learned that as long as I have the correct engineerin
 
 Overall, this project taught me how to use engineering equations to create a parametric model and then use FEA to check the design.
 
-[CAD Download](Part1.solid)
+[CAD Download](Part1.SLDPRT)
