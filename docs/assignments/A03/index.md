@@ -73,26 +73,9 @@ Next, I extruded the Beams face to the correct length that was calculated of **2
 <img width="1497" height="842" alt="Screenshot 2026-09-09 223537" src="https://github.com/user-attachments/assets/72ca8b5e-efdc-4ee4-93de-b01b013189a3" />
 
 
+I then chose the required material which was **6061-T6 Aluminum**
 
-
-
-
-
-
-### SOLIDWORKS Parametric Model
-
-<!-- Add your SOLIDWORKS parameter screenshot below -->
-
-![SOLIDWORKS Parametric Parameters](images/parametric_parameters.png)
-
-*Figure 1. Parametric variables and equations used to control the aluminum bar.*
-
-<!-- Add your CAD model screenshot below -->
-
-![SOLIDWORKS Aluminum Bar](images/aluminum_bar.png)
-
-*Figure 2. Final parametric aluminum bar model.*
-
+<img width="945" height="776" alt="Screenshot 2026-09-09 223751" src="https://github.com/user-attachments/assets/fe034bc7-0a97-43c1-89f7-0ad511599694" />
 
 
 
