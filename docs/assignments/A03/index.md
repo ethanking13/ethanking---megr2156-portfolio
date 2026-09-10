@@ -191,8 +191,6 @@ Therefore, the bar passes the **strength requirement** because the maximum von M
 | Maximum von Mises Stress | 539.6 psi | < 40,000 psi | Pass |
 | Safety Factor | 74.1 | > 1 | Pass |
 
-The FEA indicates that the bar is well within the allowable stress limit but exceeds the maximum allowable deflection. This difference between the FEA and hand calculation will be discussed in the Design Reflection section.
-
 ## Design Reflection
 
 The axial deflection from the hand calculation was **0.009 in**, which corresponds to the maximum allowable deflection specified by the design requirements. The maximum resultant displacement from the FEA was **0.01034 in**.
@@ -209,11 +207,9 @@ Therefore, the FEA result was approximately **14.89% greater** than the hand-cal
 
 ## Explanation of the Difference
 
-The difference between the hand calculation and the FEA result can be attributed to the assumptions made in the hand calculation compared with the conditions used in the FEA simulation.
+I think the difference came from the deflection value because the value was set, and the parameters I chose were the maximum of every value that was possible. Due to the area of the beam, I technically created a very long beam that was designed to reach the maximum allowable deflection of **0.009 in**. Since the hand calculation uses an ideal equation, the FEA resulted in a slightly different deflection of **0.01034 in**. 
 
-This equation assumes a uniform cross-sectional area, constant material properties, and ideal axial loading. The FEA model accounts for the actual simulation setup, including the fixed geometry and applied load locations. Differences in the boundary conditions, load application, mesh, and how SOLIDWORKS calculates displacement can contribute to the difference between the two results.
-
-The FEA displacement was **0.01034 in**, compared with the hand-calculated value of **0.009 in**. Since the FEA result is higher, the model does not meet the **0.009 in maximum deflection requirement** according to the simulation.
+Another possible source of the difference could have been **user error when applying the force or setting the fixtures in the FEA simulation**. This could have caused the FEA to produce a slightly different result than the hand calculation.
 
 ---
 
