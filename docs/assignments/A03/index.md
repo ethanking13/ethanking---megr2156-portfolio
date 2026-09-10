@@ -242,3 +242,5 @@ The estimated peak stress at the hole was **1.5 ksi**. This is well below the al
 Throughout this project, I learned that as long as I have the correct engineering equation and the required design values, I can build a model from the ground up. I learned how to use the applied load, material properties, cross-sectional dimensions, and allowable deflection to determine the length of the bar and create a parametric CAD model. I also learned how important it is to check my work using FEA. The hand calculation and FEA did not produce exactly the same deflection, which showed me that simulation results can differ from theoretical calculations.
 
 Overall, this project taught me how to use engineering equations to create a parametric model and then use FEA to check the design.
+
+[CAD Download](Part1.solid)
