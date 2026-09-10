@@ -62,9 +62,15 @@ First I plugged every known into the Equations section, This allows the length o
 <img width="212" height="187" alt="Screenshot 2026-09-09 223311" src="https://github.com/user-attachments/assets/aed905ca-aeb4-40ba-b673-f4fbb82650bd" />
 
 
-Next, I made the 1x1 face of the beam using my specific Base(b) and Height(h) parameters, Which can be seen that they are being used by the Summation Symbol
+Then, I made the 1x1 face of the beam using my specific Base(b) and Height(h) parameters, Which can be seen that they are being used by the Summation Symbol
 
 <img width="352" height="296" alt="Screenshot 2026-09-09 223242" src="https://github.com/user-attachments/assets/5296c86a-776b-453a-97fc-2de8dba05d15" />
+
+Next, I extruded the Beams face to the correct length that was calculated of **207 inches**
+
+<img width="268" height="228" alt="Screenshot 2026-09-09 223423" src="https://github.com/user-attachments/assets/f1f08639-b106-4931-bcdd-c33253ff0b42" />
+
+<img width="1497" height="842" alt="Screenshot 2026-09-09 223537" src="https://github.com/user-attachments/assets/72ca8b5e-efdc-4ee4-93de-b01b013189a3" />
 
 
 
