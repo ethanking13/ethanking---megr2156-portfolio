@@ -223,3 +223,26 @@ The FEA displacement was **0.01034 in**, compared with the hand-calculated value
 For evaluating the actual behavior of the CAD model, I would trust the **FEA result more** because it evaluates the specific geometry, material, loading condition, and boundary conditions used in the simulation. The hand calculation is useful for determining the initial dimensions and estimating the expected deflection, but it relies on ideal assumptions.
 
 The FEA result of **0.01034 in** indicates that the current design exceeds the maximum allowable deflection of **0.009 in**. Therefore, the design passes the strength requirement but does not meet the deflection requirement based on the FEA results.
+
+# Stress Concentration
+
+## Pin Hole Stress
+
+A substantial pin hole was considered on the left side of the bar. A conservative theoretical stress concentration factor of **Kt = 3.0** was used for a circular hole in a flat bar under axial tension.
+
+The value of **Kt = 3.0** is supported by the following engineering reference:
+
+[Neural Concept – Stress Concentration](https://www.neuralconcept.com/post/stress-concentration-mitigating-risk-factors-in-design-engineering)
+
+The nominal stress and estimated peak stress were calculated using the stress concentration factor.
+
+<img width="1439" height="1165" alt="IMG_0361 (1)" src="https://github.com/user-attachments/assets/350f225c-169b-4688-a633-080672b41764" />
+
+
+The estimated peak stress at the hole was **1.5 ksi**. This is well below the aluminum yield strength of **40 ksi**, so the bar would **still pass the strength requirement** with the pin hole.
+
+# Lessons Learned
+
+Throughout this project, I learned that as long as I have the correct engineering equation and the required design values, I can build a model from the ground up. I learned how to use the applied load, material properties, cross-sectional dimensions, and allowable deflection to determine the length of the bar and create a parametric CAD model. I also learned how important it is to check my work using FEA. The hand calculation and FEA did not produce exactly the same deflection, which showed me that simulation results can differ from theoretical calculations.
+
+Overall, this project taught me how to use engineering equations to create a parametric model and then use FEA to check the design.
