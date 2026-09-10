@@ -186,21 +186,11 @@ The yield strength of the 6061-T6 Aluminum used in the simulation was approximat
 
 The safety factor was calculated using:
 
-\[
-SF = \frac{S_y}{\sigma_{max}}
-\]
 
-\[
-SF = \frac{40,000}{539.6}
-\]
+<img width="1810" height="893" alt="IMG_0360" src="https://github.com/user-attachments/assets/e540c456-5534-4527-81ae-2db5b59dd6a5" />
 
-\[
-SF \approx 74.1
-\]
 
 Therefore, the bar passes the **strength requirement** because the maximum von Mises stress of **539.6 psi** is well below the aluminum yield strength of **40,000 psi**.
-
-However, the FEA deflection of **0.01034 in** is greater than the required maximum deflection of **0.009 in**. Therefore, while the bar passes the **strength requirement**, it does **not meet the deflection requirement** based on the FEA results.
 
 ---
 
@@ -222,17 +212,9 @@ The axial deflection from the hand calculation was **0.009 in**, which correspon
 
 The percent difference between the hand calculation and FEA result was calculated as:
 
-\[
-\%\text{ Difference}
-=
-\frac{|0.01034-0.009|}{0.009}\times100
-\]
 
-\[
-\%\text{ Difference}
-=
-14.89\%
-\]
+<img width="1810" height="893" alt="IMG_0360" src="https://github.com/user-attachments/assets/33c88035-f7a9-42b6-a36b-7953e9c16a73" />
+
 
 Therefore, the FEA result was approximately **14.89% greater** than the hand-calculated deflection.
 
