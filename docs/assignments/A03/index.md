@@ -145,7 +145,13 @@ A finite element analysis was performed on the aluminum bar using SOLIDWORKS Sim
 
 The simulation was used to determine the maximum axial deflection and maximum von Mises stress. The results were then compared with the design requirements.
 
-## 2.1 FEA Parameters
+## Finite Element Analysis (FEA)
+
+A finite element analysis was performed on the aluminum bar using SOLIDWORKS Simulation. The same loading condition used to generate the bar geometry was applied to the FEA model.
+
+The simulation was used to determine the maximum axial deflection and maximum von Mises stress. The results were then compared with the design requirements.
+
+## FEA Parameters
 
 | Parameter | Value |
 |---|---:|
@@ -158,101 +164,57 @@ The simulation was used to determine the maximum axial deflection and maximum vo
 
 ---
 
-## 2.2 Deflection Map
+## Deflection Results
 
-A resultant displacement plot was generated in SOLIDWORKS Simulation to determine the maximum deflection of the bar.
+The FEA simulation was run to determine the maximum resultant displacement of the bar.
 
-The FEA produced a maximum resultant displacement of:
+<img width="1615" height="875" alt="Screenshot 2026-09-09 224920" src="https://github.com/user-attachments/assets/e1257eee-9edb-4afe-b892-b9385c83d5ab" />
 
-$$
-\boxed{\delta_{FEA} = 0.01034\text{ in}}
-$$
+The maximum resultant displacement from the FEA was:
 
-The maximum allowable deflection specified for the design was:
+**0.01034 in**
 
-$$
-\boxed{\delta_{allowable} = 0.009\text{ in}}
-$$
-
-The FEA result is greater than the allowable deflection:
-
-$$
-0.01034\text{ in} > 0.009\text{ in}
-$$
-
-Therefore, based on the FEA result, the bar exceeds the specified maximum deflection by:
-
-$$
-0.01034-0.009=0.00134\text{ in}
-$$
-
-### SOLIDWORKS Deflection Map
-
-![FEA Deflection Map](images/deflection_map.png)
-
-*Figure 3. SOLIDWORKS FEA resultant displacement map showing a maximum displacement of 0.01034 in.*
+The required maximum deflection was **0.009 in**.
 
 ---
 
-## 2.3 von Mises Stress Map
+## von Mises Stress Results
 
-A von Mises stress plot was generated to determine the maximum stress in the aluminum bar under the applied 500-lbf load.
+The von Mises stress result was used to determine the maximum stress experienced by the bar during the simulation.
 
-The maximum von Mises stress obtained from the FEA was:
+<img width="1617" height="876" alt="Screenshot 2026-09-09 224841" src="https://github.com/user-attachments/assets/9efd5ece-2fc8-4888-8d53-af5ff1f1f243" />
 
-$$
-\boxed{\sigma_{vM,max}=539.6\text{ psi}}
-$$
+The maximum von Mises stress from the FEA was:
 
-Converting the stress to ksi:
-
-$$
-539.6\text{ psi}=0.5396\text{ ksi}
-$$
-
-### SOLIDWORKS von Mises Stress Map
-
-![FEA von Mises Stress Map](images/von_mises_stress.png)
-
-*Figure 4. SOLIDWORKS FEA von Mises stress map showing a maximum stress of 539.6 psi.*
+**539.6 psi**
 
 ---
 
-## 2.4 Stress and Safety Factor
+## Safety Factor
 
-The specified yield strength of the aluminum was:
-
-$$
-S_y=40\text{ ksi}
-$$
-
-or:
-
-$$
-S_y=40,000\text{ psi}
-$$
+The yield strength of the 6061-T6 Aluminum used in the simulation was approximately **40,000 psi (40 ksi)**.
 
 The safety factor was calculated using:
 
-$$
-SF=\frac{S_y}{\sigma_{max}}
-$$
+\[
+SF = \frac{S_y}{\sigma_{max}}
+\]
 
-Substituting the FEA maximum von Mises stress:
+\[
+SF = \frac{40,000}{539.6}
+\]
 
-$$
-SF=\frac{40,000}{539.6}
-$$
+\[
+SF \approx 74.1
+\]
 
-$$
-\boxed{SF=74.1}
-$$
+Therefore, the bar passes the **strength requirement** because the maximum von Mises stress of **539.6 psi** is well below the aluminum yield strength of **40,000 psi**.
 
-The maximum von Mises stress is significantly below the 40-ksi yield strength of the aluminum. Therefore, the design **passes the strength requirement** with a safety factor of approximately **74**.
+However, the FEA deflection of **0.01034 in** is greater than the required maximum deflection of **0.009 in**. Therefore, while the bar passes the **strength requirement**, it does **not meet the deflection requirement** based on the FEA results.
 
 ---
 
-## 2.5 FEA Results Summary
+## FEA Results Summary
 
 | Result | Value | Requirement | Status |
 |---|---:|---:|---|
@@ -260,4 +222,4 @@ The maximum von Mises stress is significantly below the 40-ksi yield strength of
 | Maximum von Mises Stress | 539.6 psi | < 40,000 psi | Pass |
 | Safety Factor | 74.1 | > 1 | Pass |
 
-The FEA indicates that the bar is well within the allowable stress limit but slightly exceeds the maximum allowable deflection. This difference between the FEA and hand calculation will be discussed in the Design Reflection section.
+The FEA indicates that the bar is well within the allowable stress limit but exceeds the maximum allowable deflection. This difference between the FEA and hand calculation will be discussed in the Design Reflection section.
