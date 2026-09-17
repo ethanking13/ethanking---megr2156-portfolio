@@ -101,6 +101,6 @@ I then moved into extruding the screw holes and the hole that the mount rest in.
 
 ### CAD File
 
-[Download the Motor Mount CAD Model](../../images/motormount.prt)
+[Download the Motor Mount CAD Model](../../images/motormount.SLDPRT)
 
 
