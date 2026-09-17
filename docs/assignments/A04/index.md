@@ -97,5 +97,10 @@ I then moved into extruding the screw holes and the hole that the mount rest in.
 
 <img width="645" height="583" alt="Screenshot 2026-09-17 001038" src="https://github.com/user-attachments/assets/271a51a1-da4f-4924-8cdc-be27a085f856" />
 
+### CAD File
+
+### CAD File
+
+[Download the Motor Mount CAD Model](../../images/motormount.prt)
 
 
