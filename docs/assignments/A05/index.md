@@ -16,7 +16,7 @@ The objective of this assignment is to design a structural component using princ
 
 ---
 
-For this assignment, I was given specific parameters and requirements that I had to follow. I was also provided with data to help guide me in determining the necessary dimensions and solving for the required lengths. I decided to use an applied force of **800 lbf** and a **safety factor of 4** for my design.
+For this assignment, I was given specific parameters and requirements that I had to follow. I was also provided with data to help guide me in determining the necessary dimensions and solving for the required lengths. I decided to use an applied force of **800 lbf** and a **safety factor of 4** for my design. And since the strap is represented by 2F we must do 800 divided by 2 = 400 which will be used later.
 
 ## Material
 
