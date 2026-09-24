@@ -9,6 +9,11 @@ The objective of this assignment is to design a structural component using princ
 
 <img width="817" height="377" alt="Screenshot 2026-09-23 213235" src="https://github.com/user-attachments/assets/f8f0fcf5-966a-40a2-9118-88862ea1ec16" />
 
+## Bracket Concept
+
+<img width="812" height="486" alt="Screenshot 2026-09-23 233535" src="https://github.com/user-attachments/assets/38d79270-7a4c-4f89-894f-bd3789b71f16" />
+
+
 ---
 
 For this assignment, I was given specific parameters and requirements that I had to follow. I was also provided with data to help guide me in determining the necessary dimensions and solving for the required lengths. I decided to use an applied force of **800 lbf** and a **safety factor of 4** for my design.
