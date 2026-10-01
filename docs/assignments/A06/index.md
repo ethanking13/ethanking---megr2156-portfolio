@@ -104,3 +104,9 @@ For my drawing, I applied a tighter tolerance of −0.001 in to Figure C because
 ### Time Spent and Lessons Learned
 
 I spent approximately 5 hours completing this assignment. The assignment did not require as much modeling time because most of the design work had already been completed in Assignment 5, so the primary task was organizing and combining the completed work into the final design and drawing. One of the main skills I learned from this assignment was how to use the **SolidWorks Drawing** feature. I was previously more familiar with creating drawings in **Creo Parametric**, so adapting to the SolidWorks drawing environment required some additional time. Learning how to create and organize the drawing in SolidWorks gave me experience working with a different CAD documentation system and helped me better understand how engineering drawings are produced from a completed parametric model.
+
+
+### Model and Drawing
+<a href="../../images/a6model.SLDPRT" download>CAD Model</a>
+
+<a href="../../images/a6modeldraw.SLDDRW" download>CAD Drawing</a>
