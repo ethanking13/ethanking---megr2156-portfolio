@@ -25,6 +25,9 @@ I next added a downward force of 400lbf. To simulate something pulling down on t
 ## Meshing
 Next I was to choose the mesh quality and change it as I went on. I decided to go with the default mesh quality that's set in the middle for this first attempt. For each of the image below the pictures data follows. Stress, Displacement, and then Factor of Safety (FOS).
 
+## Note
+Just a reminder. All the simulations below will be using a 400lbf downward force with 2 fixed geometries at the top where its supported by whatever it slides on. Also each simulation follows the same mesh quality from coarse to the fine then to fineist.
+
 # Design 1 
 For each simulation I ran it 3 different times. With different mesh values which gradually got finer and finer. Below you can see the "Mesh Control Bar" First Simulation was all the way to the left then second was directly in the middle, Then the 3rd and final run was on the far right
 <img width="272" height="660" alt="Screenshot 2026-10-21 205624" src="https://github.com/user-attachments/assets/807b9531-47d5-4d46-89c9-8f510635ccf5" />
