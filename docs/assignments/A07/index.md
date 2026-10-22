@@ -1,13 +1,11 @@
 # A7 – FEA on a Bracket
 
 ## Objectives
-
 - Design a component that is high-stiffness, high-strength, and lightweight.
 -  Use Finite Element Analysis (FEA) to guide design decisions throughout the design process.
 - Achieve mesh convergence within a 7% difference for stress, displacement, and safety factor results by adjusting the number of elements.
 - Perform mesh convergence analysis before each geometric modification.
 - If convergence is not achieved after three attempts, use the stiffness and stress results from the finer mesh and proceed with the finest mesh size.
-
 
 ## Initial Design
 I will be using the same bracket from my previous assignment. I double checked the file to make sure everything was correct and ready for simulation. As you can see in the top left my selected material is 6061 Aluminum. 
