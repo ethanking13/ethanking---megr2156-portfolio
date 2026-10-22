@@ -118,3 +118,6 @@ I know if I keep changing the design I can continue to optimize the bracket. But
 This assignment taught me how to use simulation results to make informed engineering decisions rather than relying solely on the appearance of a CAD model. I learned that identifying areas of high stress helps determine where additional support may be needed, while areas experiencing less stress may offer opportunities to reduce weight. I also gained experience evaluating how the mesh represents the geometry and why simulation results must be verified before making design improvements. One challenge was balancing the accuracy of the analysis with the time required to complete each simulation. Overall, this project strengthened my understanding of the relationship between material selection, structural performance, and design optimization.
 
 **Time Spent:** [5 Hours]
+
+### Model
+<a href="../../images/a6modelnew.SLDPRT" download>CAD Model</a>
