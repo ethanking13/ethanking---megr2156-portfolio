@@ -90,4 +90,6 @@ I decided to make the box a 3in long by 2in tall box and decided to extrude the 
 I learned about Mcmaster and that it has just about every single cadfile on hand and you can download them for free to include in any model you have. I was used to the assembly portion because that was covered in a prevoius class I took. It took me about 5 hours to solve everything and model it together.
 
 ## Files
-[CAD File](
+[Gear-box](gearbox.SLDPRT)
+[Gear-box assembly](Gearboxassembly.SLDASM)
+[Gear-box lid](gearboxplate.SLDPRT)
