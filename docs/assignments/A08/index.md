@@ -63,4 +63,30 @@
 <img width="979" height="534" alt="IMG_0427" src="https://github.com/user-attachments/assets/76172bb7-1f15-44bd-9e9a-4257bc7b858a" />
 
 ## McMaster Parts
+[Gearbox Bolt](https://www.mcmaster.com/91251A102/)
+[Bearing Sleeve 1](https://www.mcmaster.com/6391K111/)
+[Bearing Sleeve 2](https://www.mcmaster.com/6391K136/)
+[Big Gear](https://www.mcmaster.com/6832K45/)
+[Shaft](https://www.mcmaster.com/1327K113/)
+[Little Gear](https://www.mcmaster.com/7880K17/)
+[Small Shaft](https://www.mcmaster.com/1327K93/)
+
+## Gearbox Drawing
+<img width="1291" height="1140" alt="IMG_0428" src="https://github.com/user-attachments/assets/89bf6f97-2ab8-4ce8-afa0-53acd84e7064" />
+
+## Material Choice
+I decided to use an Alloy Steel because it was the most generic material I could think of. And its what most industries use as their material.
+<img width="895" height="293" alt="Screenshot 2026-10-28 180921" src="https://github.com/user-attachments/assets/4211736d-fdcd-4e9a-ab95-2844f11b40ac" />
+
+## Model Variables
+<img width="598" height="305" alt="Screenshot 2026-10-28 180742" src="https://github.com/user-attachments/assets/6966fa91-f5da-4831-b318-9ff440c9503f" />
+
+## Model
+I decided to make the box a 3in long by 2in tall box and decided to extrude the length of the box by 3in to max the longest shaft in my model
+<img width="922" height="562" alt="Screenshot 2026-10-28 192004" src="https://github.com/user-attachments/assets/4fbf5901-2056-4d83-bcae-4ece4125cc7e" />
+<img width="732" height="682" alt="Screenshot 2026-10-28 192352" src="https://github.com/user-attachments/assets/946961a9-7ab7-4546-9860-259fc1a017a3" />
+
+## Lesson Learned
+I learned about Mcmaster and that it has just about every single cadfile on hand and you can download them for free to include in any model you have. I was used to the assembly portion because that was covered in a prevoius class I took. It took me about 5 hours to solve everything and model it together.
+
 
