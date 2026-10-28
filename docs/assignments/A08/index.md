@@ -52,3 +52,15 @@
 - Bearing Material: ???
 
 ## Freebody Diagram (FBD)
+<img width="1344" height="686" alt="IMG_0422" src="https://github.com/user-attachments/assets/507887dc-6e8f-4b20-9214-66531970a341" />
+
+## Equations
+<img width="517" height="1095" alt="IMG_0423" src="https://github.com/user-attachments/assets/1ebc5fa8-9e00-40cf-b282-08c0df4a5812" />
+<img width="1084" height="858" alt="IMG_0424" src="https://github.com/user-attachments/assets/b6e07103-b429-4e8e-93db-3c256fd5beb2" />
+
+## Numerically Solved
+<img width="1089" height="1100" alt="IMG_0425" src="https://github.com/user-attachments/assets/506364d8-1d5c-4bf8-809d-228957ee0400" />
+<img width="979" height="534" alt="IMG_0427" src="https://github.com/user-attachments/assets/76172bb7-1f15-44bd-9e9a-4257bc7b858a" />
+
+## McMaster Parts
+
