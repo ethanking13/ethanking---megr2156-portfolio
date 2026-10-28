@@ -35,7 +35,20 @@
 <img width="1413" height="766" alt="IMG_0420" src="https://github.com/user-attachments/assets/ffae20bd-74b5-4f10-b3f8-971aec249429" />
 <img width="1489" height="1019" alt="IMG_0421" src="https://github.com/user-attachments/assets/24f14d00-1598-4fd8-af0e-c01d380b0123" />
 
+## Bearing Design
+### Design Knowns
+- Power: 0.022 hp
+- Input Torque: 0.468 in-lbf
+- Output Torque: 1.25 in-lbf
+- Input Speed: 2933 RPM
+- Output Speed: 1100 RPM
+- Input Gear Shaft Diameter: 0.125 in
+- Output Gear Shaft Diameter: 0.250 in
+- Shaft Length: 1.00 in
+- RC5 Clearance: 0.001 in
 
+### Design Unknowns
+- Bearing Thickness: in
+- Bearing Material: ???
 
-
-
+## Freebody Diagram (FBD)
