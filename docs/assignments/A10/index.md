@@ -159,3 +159,5 @@ A multiview sketch was created to communicate the overall geometry and mounting 
 ### Lesson Learned
 
 I learned the importance of considering both strength and deflection when designing a mechanical system. Selecting components requires more than ensuring they can withstand the applied load; their dimensions, material properties, and safety factors must also be considered. Through this project, I gained a better understanding of how lead screw diameter, rotational speed, torque, and crosshead geometry affect the overall performance and reliability of a tensile testing machine. Spent about 4 Hours.
+
+# Model
