@@ -23,7 +23,7 @@ The motor's speed-torque curve is included below to demonstrate its available to
 ### Conclusion
 The selected motor satisfies the torque and speed requirements of the lead screw design.
 
-## 2. Motor Mount Bracket Design
+## Motor Mount Bracket Design
 
 A motor mount bracket was designed to securely attach the selected motor to the tester frame. The bracket uses the motor's existing mounting hole pattern and a four-hole pattern to secure it to the top of the frame.
 
@@ -36,3 +36,18 @@ The final motor mount bracket was modeled in CAD using the calculated thickness 
 <img width="768" height="702" alt="Screenshot 2026-11-18 214206" src="https://github.com/user-attachments/assets/6498a137-c0d8-4689-97c8-bd4a1658fbde" />
 <img width="882" height="877" alt="Screenshot 2026-11-18 214222" src="https://github.com/user-attachments/assets/d29f70c8-5029-4927-82c4-fea0d338e8d7" />
 
+## Coupler Design
+
+A coupler was selected to connect the motor shaft to the lead screw. Torsional shear stress analysis was used to determine the required coupler dimensions and ensure it can safely transmit the maximum operating torque.
+
+### Selected Coupling
+[McMaster-Carr Coupling – Part #6412K14](https://www.mcmaster.com/6412K14/)
+
+## Coupler Design
+
+### Final Design
+
+The selected coupling was evaluated using torsional shear stress analysis to ensure it could safely transmit the required torque.
+<img width="499" height="381" alt="Screenshot 2026-11-18 214849" src="https://github.com/user-attachments/assets/e87ceac4-ef4f-4295-8405-1c359631ba9d" />
+<img width="999" height="627" alt="Screenshot 2026-11-18 214858" src="https://github.com/user-attachments/assets/9ce43187-2074-4b38-a60b-136227ea4ff8" />
+<img width="544" height="132" alt="Screenshot 2026-11-18 214907" src="https://github.com/user-attachments/assets/dd16c823-e106-4a38-90e8-097fe2aaf99d" />
