@@ -28,7 +28,11 @@ The selected motor satisfies the torque and speed requirements of the lead screw
 A motor mount bracket was designed to securely attach the selected motor to the tester frame. The bracket uses the motor's existing mounting hole pattern and a four-hole pattern to secure it to the top of the frame.
 
 The design maintains alignment with the lead screw, allows access for assembly and maintenance, and provides sufficient strength to withstand operational torque and reaction forces.
+<img width="367" height="721" alt="Screenshot 2026-11-18 214437" src="https://github.com/user-attachments/assets/3e2e1b65-8dc8-4593-b7f9-7b6fef2ba038" />
 
 
 ### Final Design
 The final motor mount bracket was modeled in CAD using the calculated thickness and mounting hole locations.
+<img width="768" height="702" alt="Screenshot 2026-11-18 214206" src="https://github.com/user-attachments/assets/6498a137-c0d8-4689-97c8-bd4a1658fbde" />
+<img width="882" height="877" alt="Screenshot 2026-11-18 214222" src="https://github.com/user-attachments/assets/d29f70c8-5029-4927-82c4-fea0d338e8d7" />
+
