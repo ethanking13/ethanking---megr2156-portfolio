@@ -44,6 +44,7 @@ A coupler was selected to connect the motor shaft to the lead screw. Torsional s
 [McMaster-Carr Coupling – Part #6412K14](https://www.mcmaster.com/6412K14/)
 
 ## Coupler Design
+<img width="487" height="382" alt="image" src="https://github.com/user-attachments/assets/3d2b4a90-9af9-42c7-b052-a2e07377df40" />
 
 ### Final Design
 
