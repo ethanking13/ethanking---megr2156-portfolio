@@ -22,3 +22,13 @@ The motor's speed-torque curve is included below to demonstrate its available to
 
 ### Conclusion
 The selected motor satisfies the torque and speed requirements of the lead screw design.
+
+## 2. Motor Mount Bracket Design
+
+A motor mount bracket was designed to securely attach the selected motor to the tester frame. The bracket uses the motor's existing mounting hole pattern and a four-hole pattern to secure it to the top of the frame.
+
+The design maintains alignment with the lead screw, allows access for assembly and maintenance, and provides sufficient strength to withstand operational torque and reaction forces.
+
+
+### Final Design
+The final motor mount bracket was modeled in CAD using the calculated thickness and mounting hole locations.
