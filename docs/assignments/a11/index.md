@@ -1,12 +1,24 @@
 # A11 – Motor Selection
 
-## Objective
+## Motor Selection: EthanKing
 
+A motor was selected based on the torque and speed requirements of the lead screw design. The motor was evaluated to ensure it could handle the maximum axial load of 2 kN throughout the required speed range of 1–50 mm/min.
 
-## Analyze
+### Selected Motor
+[McMaster-Carr Motor – Part #6627T117](https://www.mcmaster.com/6627T117/)
 
+### Motor Specifications
+<img width="549" height="627" alt="Screenshot 2026-11-18 213807" src="https://github.com/user-attachments/assets/5ad1d1ad-fd25-4863-abd6-6a44c9d44b32" />
+<img width="998" height="590" alt="Screenshot 2026-11-18 213609" src="https://github.com/user-attachments/assets/af09bf8a-0fd9-43d2-a646-6a0933621549" />
 
-## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+### Torque Verification
+- Maximum Required Torque: **2.93 N·m (2.161 lb-ft)**
 
-## Communicate
+The selected motor was checked to ensure it provides sufficient output torque throughout the required operating speed range.
+
+### Speed-Torque Curve
+The motor's speed-torque curve is included below to demonstrate its available torque at different operating speeds.
+<img width="553" height="418" alt="Screenshot 2026-11-18 213218" src="https://github.com/user-attachments/assets/6582c5c2-5e98-4599-8ec8-37cb4d2821a4" />
+
+### Conclusion
+The selected motor satisfies the torque and speed requirements of the lead screw design.
